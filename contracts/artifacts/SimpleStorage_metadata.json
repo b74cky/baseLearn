@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Base_SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Base_SimpleStorage.sol": {
+			"keccak256": "0x053ffa5fed0f477422c37311a4938a4bc247fedbee5990096c5e209e6a9f18ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b03357d50acb9345a7294a49a07fedf0e5cbf57c6e33c1966be2b417dd79959d",
+				"dweb:/ipfs/QmdJXq33ZZJ16nrCPu8nDD5GsbtLXcGCxBncUkYmkZFnx4"
+			]
+		}
+	},
+	"version": 1
+}

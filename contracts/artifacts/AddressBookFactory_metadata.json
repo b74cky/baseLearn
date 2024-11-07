@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Factory contract to deploy AddressBook instances.",
+			"kind": "dev",
+			"methods": {
+				"deploy()": {
+					"details": "Deploys a new AddressBook contract and assigns ownership to the caller.",
+					"returns": {
+						"_0": "The address of the newly deployed AddressBook contract."
+					}
+				}
+			},
+			"title": "AddressBookFactory",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Base_Learn_09_AddressBookFactory.sol": "AddressBookFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Base_Learn_09_AddressBook.sol": {
+			"keccak256": "0x9fb1b53a7dece27465ffd9a3bd37586632bff86218d6d739df04f98878ebaa7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://121943d248ab4eb7f77f1141d6b8558b202fc51221d6b467437aa6766414d29f",
+				"dweb:/ipfs/Qme3JGienuziECF8YPMcgtSkao6xPtpNVg1pZf7SYDPtw9"
+			]
+		},
+		"contracts/Base_Learn_09_AddressBookFactory.sol": {
+			"keccak256": "0xde86e4e867eff59deed7e8f2d17135a4168260875d2f994aef31d71b4fe4dae6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94c9cde376a97135cde2c478d8c465eb13e7320d7b8be98854d2449f99871223",
+				"dweb:/ipfs/QmNu2MjGQrSXQsHLc43jTGyrJGS4r2CEimXn4Y9H3h9QZX"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		}
+	},
+	"version": 1
+}
